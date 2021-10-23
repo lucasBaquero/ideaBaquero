@@ -1,0 +1,196 @@
+* {
+  margin: 0mm;
+  padding: 0mm;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Urbanist", sans-serif;
+}
+
+/*Header*/
+header {
+  background: rgb(218, 165, 32);
+  background: linear-gradient(
+    135deg,
+    rgba(218, 165, 32, 1) 0%,
+    rgba(217, 195, 139, 1) 100%
+  );
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+/*Menu*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem 1.5rem 6rem;
+  width: 100%;
+}
+
+.ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.liPortada {
+  color: white;
+}
+
+/*Sección*/
+
+.imagenPortada {
+  height: 80vh;
+  background-image: url(../assets/Panorama.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.imagenCaja {
+  border: solid;
+  padding-top: 10ren;
+  width: 38%;
+  margin-left: 6rem;
+  margin-top: 9rem;
+  color: white;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+/*Sección*/
+/* main{
+    padding: 3rem;
+    background-color: black;
+  } */
+
+.sectionCaja1 {
+  grid-area: caja1;
+  color: white;
+  /* display: flex;
+    justify-content: space-between; */
+}
+
+.sectionCaja2 {
+  grid-area: caja2;
+}
+
+.sectionCaja3 {
+  grid-area: caja3;
+}
+
+.sectionCaj4 {
+  grid-area: caja4;
+}
+
+.sectionCaja1-box {
+  width: 30%;
+}
+
+.sectionCaja1-p {
+  width: 100%;
+}
+
+.sectionArticle-caja {
+  margin: 15px;
+}
+
+/* .sectionArticle-caja{
+    width: 25%;
+  } */
+
+.sectionArticle-cajaCriptomonedas {
+  background-color: goldenrod;
+  height: 18rem;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.parrafoCaja {
+  color: white;
+}
+
+/*Pie de Página*/
+footer {
+  padding: 3rem;
+  background-color: goldenrod;
+  height: 14rem;
+}
+
+.logo {
+  height: 6rem;
+}
+
+.criptoCba {
+  height: 4rem;
+}
+
+.copyrigth {
+  justify-content: center;
+}
+
+.section-principal {
+  padding: 3rem;
+  background-color: black;
+}
+
+.img-container {
+  padding: 15px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  transition: height 1s, width 1s;
+}
+
+.text-container {
+  padding: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-principal {
+    display: grid;
+    grid-template-areas:
+      "caja1 caja1 caja1"
+      "caja2 caja3 caja4";
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .sectionCaja1-p {
+    width: 50%;
+  }
+}
+
+.img-container img:hover {
+  position: relative;
+  width: 110%;
+  height: 110%;
+}
+
+.italica {
+  padding-top: 56px;
+}
+
+.bg-dark {
+  background-color: transparent !important;
+}
+
+form {
+  padding: 15px 30px;
+}
