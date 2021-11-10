@@ -9,22 +9,63 @@
       content="CriptoCba es la plataforma ideal para el acceso, conocimiento, compra de criptomonedas y tecnología blockchain"
     />
     <meta name="keywords" content="CRIPTO, BITCOIN, CBA, BLOCKCHAIN" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="./css/styles.css"/> -->
+    <link rel="stylesheet" href="./estilos/main.css" />
     <title>Tutoriales</title>
   </head>
   <body>
-    <h1 class="italica">Tutoriales</h1>
-
     <header>
-      <ul class="interlineado">
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="Noticias.html">NOTICIAS</a></li>
-        <li><a href="Bitcoin.html">BITCOIN</a></li>
-        <li><a href="Tutoriales.html">TUTORIALES</a></li>
-        <li><a href="Cursos.html">CURSOS</a></li>
-        <li><a href="Contacto.html">CONTACTO</a></li>
-      </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">CRIPTOCBA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Bitcoin.html">Bitcoin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tutoriales.html">Tutoriales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Cursos.html">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="Contacto.html"
+                  >Cotacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+    <h1 class="italica">Tutoriales</h1>
 
     <h1 class="normal">Título</h1>
     <!--Esta es mi primera sección-->
@@ -42,7 +83,26 @@
     <section>Parte 2</section>
     <!--Esta es mi segunda sección-->
 
-    <footer></footer>
-    <!--Este es el pie de página-->
+    <!--Pie de Página-->
+    <footer>
+    <section class="section" id="sectionFooter">
+      <div>
+        <img class="logo" src="./assets/Logo.png" alt="logo" width="45px" />
+        <img
+          class="criptoCba"
+          src="./assets/CriptoCbaBlk.png"
+          alt="nombrePagina"
+          width="100px"
+        />
+      </div>
+      <div></div>
+    </section>
+    <p class="copyrigth">Copyrigth © CriptoCba. All rigths reserved. 2021</p>
+  </footer>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+  ></script>
   </body>
 </html>
