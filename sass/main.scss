@@ -242,6 +242,10 @@ h6 {
     width: 500px;
   }
 
+  .form-label {
+    color: white;
+  }
+
   .form__button{
     display: inline-block;
     font-weight: 400;
@@ -271,8 +275,16 @@ h6 {
 
   /* Pagina Cotizacion */
 .topSection {
-  margin-top: 56px;
+  margin: 80px;
   color: #fff;
+  font-style: oblique;
+}
+
+.topSection2 {
+  margin-top: 80px;
+  margin-left: 30px;
+  color: #fff;
+  font-style: oblique;
 }
 
 /* Pagina Cursos */
@@ -285,7 +297,6 @@ h6 {
 .cursosContainer {
   width: 85vw;
   padding: 15px;
-  background-color: #43414e;
   margin-bottom: 15px;
   .col {
     margin: 15px 0;
@@ -332,9 +343,4 @@ h6 {
 
 .body {
   background-color: #212529;
-}
-
-/* carrusel index */
-.carrusel {
-  
 }

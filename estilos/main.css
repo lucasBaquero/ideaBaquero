@@ -187,6 +187,9 @@ form {
 .form__imput--large {
   width: 500px; }
 
+.form-label {
+  color: white; }
+
 .form__button {
   display: inline-block;
   font-weight: 400;
@@ -215,8 +218,15 @@ form {
 
 /* Pagina Cotizacion */
 .topSection {
-  margin-top: 56px;
-  color: #fff; }
+  margin: 80px;
+  color: #fff;
+  font-style: oblique; }
+
+.topSection2 {
+  margin-top: 80px;
+  margin-left: 30px;
+  color: #fff;
+  font-style: oblique; }
 
 /* Pagina Cursos */
 .linkCursos {
@@ -226,7 +236,6 @@ form {
 .cursosContainer {
   width: 85vw;
   padding: 15px;
-  background-color: #43414e;
   margin-bottom: 15px; }
   .cursosContainer .col {
     margin: 15px 0; }
@@ -264,5 +273,3 @@ form {
 
 .body {
   background-color: #212529; }
-
-/* carrusel index */
