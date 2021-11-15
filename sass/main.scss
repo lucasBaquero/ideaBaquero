@@ -131,7 +131,12 @@ footer {
   position: relative;
   bottom: 0;
   padding: 15px;
-  background-color: goldenrod;
+  background: rgb(218, 165, 32);
+    background: linear-gradient(
+      135deg,
+      rgba(218, 165, 32, 1) 0%,
+      rgba(217, 195, 139, 1) 100%
+    );
   .container {
     margin: 15px;
     max-width: 100%;
@@ -267,6 +272,7 @@ h6 {
   /* Pagina Cotizacion */
 .topSection {
   margin-top: 56px;
+  color: #fff;
 }
 
 /* Pagina Cursos */
@@ -303,3 +309,32 @@ h6 {
   justify-content: center;
 }
 
+/* iframe cotización */
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin:5rem 5rem 5rem 5rem;
+}
+.embed-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tablaCotizacion {
+  margin:5rem 5rem 5rem 5rem;
+}
+
+.body {
+  background-color: #212529;
+}
+
+/* carrusel index */
+.carrusel {
+  
+}
